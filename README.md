@@ -1,4 +1,12 @@
-# SEAPAY
+# SEAPay
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Requirement](#requirement)
+- [Running the Project](#running-the-project)
+
 
 ## Description
  
