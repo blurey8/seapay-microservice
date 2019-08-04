@@ -50,7 +50,7 @@ git clone https://github.com/blurey8/seapay-microservice
 cd seapay-microservice
 ```
 
-- Run Makefile
+- Run the Makefile using the command below. It will setup the database, running the test and build the project automatically
 
 ```
 make all
@@ -62,11 +62,31 @@ make all
 
 You can run the project by executing this command
 
+### User
+
+```
+make run-user
+```
+
+### Transaction
+
+```
+make run-transaction
+```
+
+### Gateway
+
+```
+make run-gateway
+```
+
+### Monolith
+
 ```
 make run-monolith
 ```
 
-You can check the project by making get request on [http://localhost:8080/ping](http://localhost:8080/ping)
+If you have run all of the service, you can check the project by making get request on [http://localhost:8080/ping](http://localhost:8080/ping) to make sure that the server has running.
 
 ---
 
