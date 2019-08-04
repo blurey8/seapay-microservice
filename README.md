@@ -34,6 +34,7 @@ The project itself has 4 modules
 
 - [Java Development Kit 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [Postgresql 10](https://www.postgresql.org/download/)
+- Make
 
 
 ## Installation
