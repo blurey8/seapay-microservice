@@ -1,4 +1,6 @@
- # Seapay
+# SEAPAY
+
+## Description
  
 Seapay is a fintech app consists of 4 different services
   - API gateway
@@ -19,26 +21,45 @@ The project itself has 4 modules
    - the bussiness logic for all services goes here
  - seapay-monolith
    - an entry point of our monolithic app, including all handlers
-  
- # How to use
 
- ### Dependencies
- ```
- brew cask install java
- ```
+## Requirement
 
- ### How to build
-
- ```
- make all
- ```
-
- ### How to run
- ```
- make run
- ```
-
-  
+- [Java Development Kit 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Postgresql 10](https://www.postgresql.org/download/)
 
 
+## Installation
 
+- Clone this repository to your machine
+
+```
+git clone https://github.com/blurey8/seapay-microservice
+```
+
+- Move to the project directory
+
+```
+cd seapay-microservice
+```
+
+- Run Makefile
+
+```
+make all
+```
+
+- It's done. Now you can run the project.
+
+## Running the Project
+
+You can run the project by executing this command
+
+```
+make run-monolith
+```
+
+You can check the project by making get request on [http://localhost:8080/ping](http://localhost:8080/ping)
+
+---
+
+- Repository: https://github.com/sea-compfest/seapay-microservice

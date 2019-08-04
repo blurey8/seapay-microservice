@@ -22,9 +22,9 @@ flyway {
     }
 }
 
-test {
-    useJUnitPlatform()
-}
+//test {
+//    useJUnitPlatform()
+//}
 
 dependencies {
     implementation project(':seapay-api')
